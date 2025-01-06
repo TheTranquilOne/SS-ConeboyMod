@@ -13,7 +13,7 @@
   "author": "",
   "classname": "",
   "copyToTargets": -1,
-  "date": "2024-12-29T17:00:14-08:00",
+  "date": "2024-12-29T18:00:14-07:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "1.3.0",

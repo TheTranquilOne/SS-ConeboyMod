@@ -95,6 +95,10 @@ function sh_character(argument0)
         case "Pizzelle":
             choosen_character = Characters.Pizzelle;
             break;
+			
+		case "Coneboy":
+            choosen_character = Characters.Coneboy;
+            break;
     }
     
     scr_player_changeCharacter(obj_parent_player, choosen_character);

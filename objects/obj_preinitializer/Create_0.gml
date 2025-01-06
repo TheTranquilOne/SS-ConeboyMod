@@ -101,7 +101,8 @@ enum States
 
 enum Characters
 {
-	Pizzelle = 0	
+	Pizzelle = 0,
+	Coneboy = 1
 }
 
 enum OptionMenu

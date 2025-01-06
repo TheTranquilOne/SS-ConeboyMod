@@ -4,7 +4,7 @@ function scr_getCharacterPrefix(argument0)
 {
     var character_prefix;
     
-    character_prefix = ["PZ"];
+    character_prefix = ["PZ", "C"];
     return character_prefix[argument0];
 }
 
@@ -207,7 +207,7 @@ function scr_characterSprite()
     spr_petdog = scr_getCharacterSprite(spr_player_PZ_dogMount_pet);
     spr_dogMount_meteor = scr_getCharacterSprite(spr_player_PZ_dogMount_meteor);
     scr_characterTVSprite();
-    char_arr = [Characters.Pizzelle];
+    char_arr = [Characters.Pizzelle, Characters.Coneboy];
     
     for (i = 0; i < array_length(char_arr); i++)
     {

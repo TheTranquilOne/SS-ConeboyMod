@@ -1,5 +1,10 @@
+# SS EN: A Cool Coneboy Mod
+Assets used for Coneboy are either from the old leaked "P Rank Build" or are completely original!
+
+That's all. Collect my Coneboys.
+
 # Sugary Spire: Exhibition Night (The Reproduction)
-This repository hosts a work-in-progress decompilation of the "Sugary Spire: Exhibition Night" demo. It is close to 100% accurate to the original demo.
+This repository uses a work-in-progress decompilation of the "Sugary Spire: Exhibition Night" demo. It is close to 100% accurate to the original demo.
 
 # Compilation
 ## Needed Materials

@@ -110,7 +110,7 @@ function meta_character()
     {
         description: "Change the character you're currently playing as.",
         arguments: ["<character>"],
-        suggestions: [["Pizzelle"]],
+        suggestions: [["Pizzelle", "Coneboy"]],
         argumentDescriptions: ["The character to switch to."]
     };
 }

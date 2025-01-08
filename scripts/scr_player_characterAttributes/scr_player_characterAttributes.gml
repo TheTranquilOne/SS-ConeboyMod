@@ -256,6 +256,12 @@ global.StupidWorkaroundFixLater = 0;
 
 function define_player_palette(argument0 = Characters.Pizzelle, argument1, argument2, argument3 = argument2, argument4 = argument3, argument5 = undefined)
 {
+	///@arg Character
+	///@arg PalName
+	///@arg Color
+	///@arg Afterimage_1
+	///@arg Afterimage_2
+	///@arg Texture
     var q, _ref, _def, array_index, i, struct;
     
     q = [];
@@ -329,6 +335,11 @@ define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionentryway", unde
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionsteamy", undefined, 0, 16375551, spr_demopattern_steamy, 11042984, 15743104, 9461864);
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmineshaft", undefined, 0, 8340489, spr_demopattern_mineshaft, 4771936, 5793792, 5793792);
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmolasses", undefined, 0, 5793792, spr_demopattern_molasses, 1601784, 12464, 12464);
+
+define_palette_sprite(Characters.Coneboy, [0, 1]);
+define_player_palette(Characters.Coneboy, "palette_C_default", #C93434, #FFF397, #C88048, undefined, 13773959, 3736096, 9988216, 8628991, 14496);
+define_player_palette(Characters.Coneboy, "palette_C_classic", #C93434, #FFF397, #C88048);
+define_player_palette(Characters.Coneboy, "palette_C_exhibitionnight", #C93434, #FFF397, #C88048);
 palette_surface = surface_create(1, 1);
 
 for (i = 0; i < array_length(global.CharacterPalette); i++)

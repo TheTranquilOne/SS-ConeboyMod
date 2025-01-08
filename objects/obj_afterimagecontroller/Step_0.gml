@@ -62,4 +62,26 @@ if (!global.freezeframe)
         blinkingBuffer = 3;
     }
 }
-
+if instance_exists(obj_player1) && global.playerCharacter == Characters.Coneboy && color_arr[AfterImageType.mach3effect1].light != #FFF397 {
+	color_arr[AfterImageType.mach3effect1] = 
+	{
+	    light: #FFF397,
+	    dark: #C9AC5E
+	};
+	color_arr[AfterImageType.mach3effect2] = 
+	{
+	    light: #C88048,
+	    dark: #A55F28
+	};
+} else if global.playerCharacter == Characters.Pizzelle && color_arr[AfterImageType.mach3effect1].light != 16295984 {
+	color_arr[AfterImageType.mach3effect1] = 
+	{
+	    light: 16295984,
+	    dark: 7944463
+	};
+	color_arr[AfterImageType.mach3effect2] = 
+	{
+	    light: 9982184,
+	    dark: 2099551
+	};
+}

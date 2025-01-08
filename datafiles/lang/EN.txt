@@ -270,6 +270,13 @@
 "palette_PZ_exhibitionmolasses_thought"  : "Humid!"
 "palette_PZ_exhibitionmolasses_hint"     : "Try teaching a few amphibians how to swim..."
 
+"palette_C_classic"                     : "Classic Duds"
+"palette_C_classic_desc"                : "Came with your birth"
+"palette_C_classic_thought"             : "Classic!"
+
+"palette_C_exhibitionnight"             : "Exhibition Duds"
+"palette_C_exhibitionnight_desc"        : "Unlocked by showing up to the Exhibition Night"
+"palette_C_exhibitionnight_thought"     : "Timely!"
 
 
 #-----------------------#

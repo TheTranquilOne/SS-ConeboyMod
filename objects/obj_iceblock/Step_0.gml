@@ -41,12 +41,18 @@ switch (state)
         
         _old_hsp = hsp;
         check_and_destroy(x + hsp, y, obj_destructibles);
+		check_and_destroy(x + hsp, y, obj_chocofrog);
+		check_and_destroy(x + hsp, y, obj_metalblock);
+		check_and_destroy(x + hsp, y, obj_parent_enemy);
         scr_collision();
-        
+		
+        if place_meeting(x + image_xscale, y, obj_chocofrog) {
+			canDie = true;
+			state = EnemyStates.cherrywait;
+		}
         if (hsp == 0 && markedForDeath)
         {
-            state = EnemyStates.cherrywait;
-            visible = false;
+            state = States.frozen;
             
             if (content != -4)
             {
@@ -64,7 +70,7 @@ switch (state)
         break;
     
     case EnemyStates.cherrywait:
-        if (baddieID != -4 && !instance_exists(baddieID))
+        if ((baddieID != -4 && !instance_exists(baddieID)) || canDie)
         {
             instance_destroy();
             ds_list_add(global.SaveRoom, id);

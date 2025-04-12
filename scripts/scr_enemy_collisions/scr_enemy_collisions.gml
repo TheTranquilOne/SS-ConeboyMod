@@ -197,7 +197,7 @@ function baddieOnPlayerCollisions()
             if (facePlayer != 0)
                 image_xscale = facePlayer;
             
-            hsp = player_object.xscale * 5;
+            hsp = player_object.xscale * -5;
             vsp = -5;
             state = States.charge;
             

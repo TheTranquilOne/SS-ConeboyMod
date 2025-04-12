@@ -9,5 +9,6 @@ baddieID = -4;
 mach2Bumpable = true;
 vsp = 50;
 scr_collision();
+grav = .5;
 starting_image_xscale = image_xscale;
-
+canDie = false;

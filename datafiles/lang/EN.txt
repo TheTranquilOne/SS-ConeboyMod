@@ -270,10 +270,10 @@
 "palette_PZ_exhibitionmolasses_thought"  : "Humid!"
 "palette_PZ_exhibitionmolasses_hint"     : "Try teaching a few amphibians how to swim..."
 
-"palette_C_classic"          : "Frog Pajamas"
-"palette_C_classic_desc"     : "Unlocked by drowning 3 Box Frogs\nin Molasses Swamp"
-"palette_C_classic_thought"  : "Bullshit!"
-"palette_C_classic_hint"     : "Try teaching a few amphibians how to swim..."
+"palette_C_expeditionnight"          : "Frog Pajamas"
+"palette_C_classic_desc"     		: "Unlocked by drowning 3 Box Frogs\nin Molasses Swamp"
+"palette_C_classic_thought" 		 : "That sucks!"
+"palette_C_classic_hint"     		: "Try teaching a few amphibians how to swim..."
 
 
 #-----------------------#

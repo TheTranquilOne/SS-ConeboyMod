@@ -1,0 +1,1 @@
+//instance_create(obj_debris, );
